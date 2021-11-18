@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    color:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+
+.end {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.start {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.between {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.around {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.evenly {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.center {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    height: 398px;
+    width: 100%;
+}
+
+.imgcolor{
+    background-color: white;
+}
+
+.koostööpartnerid {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 481px) {
+    .box {
+        background-color: blue;
+        width: 25px;
+        height: 25px;
+    }
+
+    .start div {
+        background-color: blue;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .between div {
+        background-color: blue;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        justify-content: center;
+    align-items: center;
+    }
+
+    .around div {
+        background-color: blue;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        justify-content: center;
+    align-items: center;
+    }
+
+    .evenly div {
+        background-color: blue;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        justify-content: center;
+    align-items: center;
+    }
+
+    .center div {
+        background-color: blue;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        justify-content: center;
+    align-items: center;
+    }
+}
